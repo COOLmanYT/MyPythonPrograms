@@ -72,7 +72,7 @@ if glassesquestion == True:
     glasseschoice = True
 if glassesquestion == False:
     remove(characters, ["Amy", "Joe", "Daniel", "Nick", "Liz", "Farah"])
-    actionsDone.append("Does your character wear glasses? (Responded TRUE)")
+    actionsDone.append("Does your character wear glasses? (Responded FALSE)")
     print("Remaining characters: " + str(characters))
     time.sleep(3)
     glasseschoice = False
